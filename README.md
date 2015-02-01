@@ -8,16 +8,14 @@ See my implementations and notes on the various algorithms in Ruby, with solutio
 
 [Divide and Conquer][divide and conquer]
 
-## Sorting
-[Insertion Sort / Linear Search / Selection Sort][insertion-sort-linear-search]
+##Sorting
+[Insertion Sort / Linear Search / Selection O(n^2) Sort][insertion-sort-linear-search]
 
-[Merge Sort][mergesort]
+[Merge Sort][mergesort] O(n lgn)
 
-[Recursive Insertion Sort][insertion-sort-recursion]
+[Recursive Insertion Sort][insertion-sort-recursion] O(n)
 
-
-
-
+[Binary Search][binary-search] O(lg n)
 
 
 
@@ -37,8 +35,7 @@ See my implementations and notes on the various algorithms in Ruby, with solutio
 
 
 
-
-
+[binary-search]: ./binary_search.rb
 [insertion-sort-recursion]: ./recurs_ins_sort.rb
 [mergesort]: ./merge_sort.rb
 [divide and conquer]: ./divideandconquer.txt

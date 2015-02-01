@@ -36,3 +36,12 @@
           = 2n lg(2n)
   2. Recurrence relation for recurs_ins_sort
     t(n) = t(n-1) + n
+  3. Binary Search
+    assume 2^n array
+    then ith iteration elements is given by
+    i = n / 2^i
+    when i = 1, there is only 1 element in view, this is the worst case
+    1 = n / 2^i
+    lg n = i iterations to get to 1,
+    so as a function of n it can take lg n iterations to find the answer at most.
+  4. 
