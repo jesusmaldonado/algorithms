@@ -45,4 +45,4 @@ See my implementations and notes on the various algorithms in Ruby, with solutio
 [chapter2]: ./chapter2cormen.txt
 
 
-[insertion-sort-linear-search]: ./insertion_sort.rb
+[insertion-sort-linear-search]: ./ch2Problems.rb

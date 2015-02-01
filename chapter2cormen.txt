@@ -1,5 +1,10 @@
 Algorithms solution
 
+2.1-1
+Illustrate the operation of INSERTION-SORT on the array A = [31,41,59,26,41,58]
+
+
+
 1. Insertion sort diagram
 
 A = [31,41,59,26,41,58]
@@ -7,6 +12,8 @@ no sorts until the third element
 A = [26,31,41,59,41,58]
 A = [26,31,41,41,59,58]
 A = [26,31,41,41,58,59]
+
+This is a mixed-case scenario where insertion sort is actually not ~that~ bad. Between O(n) and O(n^2)
 
 2. Just flip the comparator.
 
@@ -30,5 +37,22 @@ def inc_insertion_sort(array)
   array #1 step (then here at termination, the algorithm is correct)
 end
 
-3. Input: two (n-bit arrays are inserted, with length of n elements that represents the integer)
-    Output: an n+1 array with the output of
+3. Write linear search, and use the loop invariant induction to prove your algorithm is correct.
+  def linear_search(array, v)
+    array.each do |item|
+      #loop invariant: initialization (item v does exist)
+      #propagation (if item != v) propagates the loop, yielding more items (propagation)
+      return v if item == v
+      #termination, two conditions (if item == v), we return from the method, avoiding the nil
+    end
+    #if the item does not exist in the array, then we return nil
+    nil
+  end
+  #O(n) runtime, possibly O(1) memory, at most O(2) not sure if storing V counts as an object?
+
+4.
+
+Input: two (n-bit arrays are inserted, with length of n elements) are to be added.
+    Output: a new n+1 array with the output of the addition:
+
+    
