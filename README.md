@@ -3,12 +3,16 @@
 ## A series of exercises/notes/solutions in Ruby as I work my way through [Introduction to Algorithms][algorithms].
 See my implementations and notes on the various algorithms in Ruby, with solutions to the exercises.
 
-##Exercises
-[Chapter 2][chapter2]
+Notes
+==
+
+##Chapter 2
+[Basics][chapter2]
 
 [Divide and Conquer][divide and conquer]
 
-##Sorting
+Sorting
+===
 [Insertion Sort / Linear Search / Selection O(n^2) Sort][insertion-sort-linear-search]
 
 [Merge Sort][mergesort] O(n lgn)
