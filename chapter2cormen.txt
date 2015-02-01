@@ -54,8 +54,36 @@ end
 2.2
 Algorithm analysis usually happens in terms of the input size, which for numbers is n or for graphs (vertex, edge) notation is usually sufficient.
 
-2.3
+2.2 Exercises
+1.
 Express n^3/1000 - 100n^2 - 100n + 3 in O(n) - > O(n^3)
 
-2.4
+
+2.
 Selection Sort.
+def selection_sort(array)
+#assume array has a size and has numbers in it and is an array
+
+  (0..array.length - 1).each do |i|
+    small = array[i]
+    smallidx = i
+    #for propagation, we know that the n-1 smallest element will be found
+    #because the element is not within the scope of the next outer loop
+    (i..array.length - 1).each do |j|
+      small, smallidx = array[j], j if array[j] < small
+    end
+    # we find the n-th smallest element of the array initialization
+    # replace the n-th smallest elements index with the not nth-smallest element
+    array[smallidx] = array[i]
+    array[i] = small
+  end
+  #the loop terminates when all portions of the loop have been reached
+  array
+end
+
+
+3.
+Linear search on average could take n/2 searches to find the element and n at most...
+
+4.
+You can modify any algorithm to have a good-case running time by making sure the input is small as possible, by making sure the input is kinda-sorta-right.
