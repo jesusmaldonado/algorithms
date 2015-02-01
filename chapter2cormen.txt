@@ -1,0 +1,11 @@
+Algorithms solution
+
+1. Insertion sort diagram
+
+A = [31,41,59,26,41,58]
+no sorts until the third element
+A = [26,31,41,59,41,58]
+A = [26,31,41,41,59,58]
+A = [26,31,41,41,58,59]
+
+2. 
