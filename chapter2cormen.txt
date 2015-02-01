@@ -1,10 +1,7 @@
 Algorithms solution
 
-2.1-1
-Illustrate the operation of INSERTION-SORT on the array A = [31,41,59,26,41,58]
 
-
-
+2.1
 1. Insertion sort diagram
 
 A = [31,41,59,26,41,58]
@@ -50,9 +47,9 @@ end
   end
   #O(n) runtime, possibly O(1) memory, at most O(2) not sure if storing V counts as an object?
 
-4.
+4. Input: two (n-bit arrays are inserted, with length of n elements) are to be added.
 
-Input: two (n-bit arrays are inserted, with length of n elements) are to be added.
     Output: a new n+1 array with the output of the addition:
 
-    
+2.2
+Algorithm analysis usually happens in terms of the input size
