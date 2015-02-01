@@ -45,3 +45,16 @@ end
 #fn => comparisons are in the worst form as form (n)(n - 1) + c, so O(n^2) at worst
 p inc_insertion_sort([5,4,3,2,1])
 p inc_insertion_sort([1,2,3,4,5,6,7,7])
+
+
+def linear_search(array, v)
+  array.each do |item|
+    #loop invariant: initialization (item v does exist)
+    #propagation (if item != v) propagates the loop, yielding more items (propagation)
+    return v if item == v
+    #termination, two conditions (if item == v), we return from the method, avoiding the nil
+  end
+  #if the item does not exist in the array, then we return nil
+  nil
+end
+#O(n) runtime, possibly O(1) memory.
