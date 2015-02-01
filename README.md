@@ -8,7 +8,7 @@ Notes + Problems
 
 [Chapter 2 - Foundations + Divide and Conquer + Recursive Relations + Loop Invariance][chapter2]
 
-[Chapter 2 - Problems][problems]
+[Chapter 2 - Problems - Merge Sort Improvements, Bubble Sort Correctness, Horner's Rule and Invariance][problems]
 
 Sorts
 ===
