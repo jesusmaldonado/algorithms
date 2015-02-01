@@ -6,6 +6,8 @@ See my implementations and notes on the various algorithms in Ruby, with solutio
 ##Exercises
 [Chapter 2][chapter2]
 
+[Divide and Conquer][divide and conquer]
+
 ## Sorting
 [Insertion Sort / Linear Search / Selection Sort][insertion-sort-linear-search]
 
@@ -38,7 +40,7 @@ See my implementations and notes on the various algorithms in Ruby, with solutio
 
 
 
-
+[divide and conquer]: ./divideandconquer.txt
 
 [algorithms]: http://www.amazon.com/Introduction-Algorithms-3rd-Thomas-Cormen/dp/0262033844/ref=sr_1_2?ie=UTF8&qid=1422754780&sr=8-2&keywords=algorithms
 

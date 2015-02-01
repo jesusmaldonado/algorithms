@@ -87,3 +87,9 @@ Linear search on average could take n/2 searches to find the element and n at mo
 
 4.
 You can modify any algorithm to have a good-case running time by making sure the input is small as possible, by making sure the input is kinda-sorta-right.
+
+
+2.3 Divide and conquer
+1. smaller subproblems
+2. subdivide subproblems or solve if small
+3. combine the subproblems into the solution for the original problem
