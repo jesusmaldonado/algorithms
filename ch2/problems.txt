@@ -1,18 +1,18 @@
-2.1
-##TODO
-Insertion Sort on Small Arrays in Merge Sort
+2.1 Insertion Sort on Small Arrays in Merge Sort
 
 2.2 BubbleSort correctness
 
 Initiation
 We have a flag which indicates sorted behavior quality, we assume it's false
-Once we enter, the flag is true
+Once we enter, the flag is true.
 
 Propagation
 The propagative step is to set the sorted flag back to false if any swaps occur. This means the array has changed and we need to go through it again
 
 Termination
-Once sorted, the flag will fly true, that final iteration of the loop will not generate another loop, and the 
+Once sorted, the flag will fly true, that final iteration of the loop will not generate another loop, and the
+
+Since we've proved loop invariance, bubble sort must sort.
 
 def bubble_sort(arr)
   sorted = false
@@ -27,3 +27,8 @@ def bubble_sort(arr)
     end
     arr
 end
+
+
+2.3 Correctness of Hortner's Rule
+
+2.4 Inversions
