@@ -11,5 +11,3 @@ def bubble_sort(arr)
     end
     arr
 end
-
-p bubble_sort([6,4,3,6,2,3,1])
