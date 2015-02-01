@@ -3,10 +3,13 @@
 ## A series of exercises/notes/solutions in Ruby as I work my way through [Introduction to Algorithms][algorithms].
 See my implementations and notes on the various algorithms in Ruby, with solutions to the exercises.
 
-Notes
+Notes + Problems
 ==
 
-[Chapter 2 - Foundations + Divide and Conquer + Recursive Relations][chapter2]
+[Chapter 2 - Foundations + Divide and Conquer + Recursive Relations + Loop Invariance][chapter2]
+
+[Chapter 2 - Problems][problems]
+
 Sorts
 ===
 [Insertion Sort / Linear Search / Selection O(n^2) Sort][insertion-sort-linear-search]
@@ -17,6 +20,7 @@ Sorts
 
 [Binary Search][binary-search] O(lg n)
 
+[Bubble Sort][bubble-sort] O(lg n^2)
 
 
 
@@ -30,11 +34,8 @@ Sorts
 
 
 
-
-
-
-
-
+[bubble-sort]: ./ch2/bubble_sort.rb
+[problems]: ./ch2/problems.txt
 [binary-search]: ./ch2/binary_search.rb
 [insertion-sort-recursion]: ./ch2/recurs_ins_sort.rb
 [mergesort]: ./ch2/merge_sort.rb
