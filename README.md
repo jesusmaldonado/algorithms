@@ -7,7 +7,7 @@ See my implementations and notes on the various algorithms in Ruby, with solutio
 [Chapter 2][chapter2]
 
 ## Sorting
-[Insertion Sort / Linear Search][insertion-sort-linear-search]
+[Insertion Sort / Linear Search / Selection Sort][insertion-sort-linear-search]
 
 
 

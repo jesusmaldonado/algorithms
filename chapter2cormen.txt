@@ -52,4 +52,10 @@ end
     Output: a new n+1 array with the output of the addition:
 
 2.2
-Algorithm analysis usually happens in terms of the input size
+Algorithm analysis usually happens in terms of the input size, which for numbers is n or for graphs (vertex, edge) notation is usually sufficient.
+
+2.3
+Express n^3/1000 - 100n^2 - 100n + 3 in O(n) - > O(n^3)
+
+2.4
+Selection Sort.
