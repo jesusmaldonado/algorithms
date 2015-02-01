@@ -6,12 +6,8 @@ See my implementations and notes on the various algorithms in Ruby, with solutio
 Notes
 ==
 
-##Chapter 2
-[Basics][chapter2]
-
-[Divide and Conquer][divide and conquer]
-
-Sorting
+[Chapter 2 - Foundations + Divide and Conquer + Recursive Relations][chapter2]
+Sorts
 ===
 [Insertion Sort / Linear Search / Selection O(n^2) Sort][insertion-sort-linear-search]
 
@@ -39,14 +35,14 @@ Sorting
 
 
 
-[binary-search]: ./binary_search.rb
-[insertion-sort-recursion]: ./recurs_ins_sort.rb
-[mergesort]: ./merge_sort.rb
-[divide and conquer]: ./divideandconquer.txt
+[binary-search]: ./ch2/binary_search.rb
+[insertion-sort-recursion]: ./ch2/recurs_ins_sort.rb
+[mergesort]: ./ch2/merge_sort.rb
+[divide and conquer]: ./ch2/divideandconquer.txt
 
 [algorithms]: http://www.amazon.com/Introduction-Algorithms-3rd-Thomas-Cormen/dp/0262033844/ref=sr_1_2?ie=UTF8&qid=1422754780&sr=8-2&keywords=algorithms
 
-[chapter2]: ./chapter2cormen.txt
+[chapter2]: ./ch2/chapter2cormen.txt
 
 
-[insertion-sort-linear-search]: ./ch2Problems.rb
+[insertion-sort-linear-search]: ./ch2/ch2Problems.rb
