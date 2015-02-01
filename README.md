@@ -11,7 +11,7 @@ Notes + Problems
 [Chapter 2 - Problems - Merge Sort Improvements, Bubble Sort Correctness, Horner's Rule and Invariance][problems]
 
 Sorts
-===
+==
 [Insertion Sort / Linear Search / Selection O(n^2) Sort][insertion-sort-linear-search]
 
 [Merge Sort][mergesort] O(n lgn)
@@ -23,6 +23,9 @@ Sorts
 [Bubble Sort][bubble-sort] O(lg n^2)
 
 
+Problems
+==
+[Common Substrings][commonsubst]
 
 
 
@@ -33,7 +36,7 @@ Sorts
 
 
 
-
+[commonsubst]: ./practice_problems/common_substr.rb
 [bubble-sort]: ./ch2/bubble_sort.rb
 [problems]: ./ch2/problems.txt
 [binary-search]: ./ch2/binary_search.rb
