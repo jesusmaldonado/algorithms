@@ -10,6 +10,8 @@ Notes + Problems
 
 [Chapter 2 - Problems - Merge Sort Improvements, Bubble Sort Correctness, Horner's Rule and Invariance][problems]
 
+[]
+
 Sorts
 ==
 [Insertion Sort / Linear Search / Selection O(n^2) Sort][insertion-sort-linear-search]
