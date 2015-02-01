@@ -11,6 +11,9 @@ See my implementations and notes on the various algorithms in Ruby, with solutio
 ## Sorting
 [Insertion Sort / Linear Search / Selection Sort][insertion-sort-linear-search]
 
+[Merge Sort][mergesort]
+
+[Recursive Insertion Sort][insertion-sort-recursion]
 
 
 
@@ -36,10 +39,8 @@ See my implementations and notes on the various algorithms in Ruby, with solutio
 
 
 
-
-
-
-
+[insertion-sort-recursion]: ./recurs_ins_sort.rb
+[mergesort]: ./merge_sort.rb
 [divide and conquer]: ./divideandconquer.txt
 
 [algorithms]: http://www.amazon.com/Introduction-Algorithms-3rd-Thomas-Cormen/dp/0262033844/ref=sr_1_2?ie=UTF8&qid=1422754780&sr=8-2&keywords=algorithms
