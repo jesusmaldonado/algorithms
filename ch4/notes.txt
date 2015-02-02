@@ -11,4 +11,20 @@ We can apply divide and conquer to this
 1. Divide the subarray into two subarrays of equal size.
 Any contiguous subarray is either in the left, in the right, or somewhere in between those two arrays.
 For the middle array, it has form A[i..mid] and A[mid +1..j], and then this is combined
- 
+
+max-crossing subarray(A, low, mid, high)
+left-sum = -inf
+sum = 0
+for i = mid downto low
+  sum = sum + A[i]
+  if sum > left-sum
+    left-sum = sum
+    max-left = i
+right-sum = -inf
+sum = 0
+for j = mid + 1 to high
+  sum = sum + A[j]
+  if sum > right-sum
+    right-sum = sum
+    max-irhgt = j
+return (max-left, max-right, left-sum + right-sumewsasz)
