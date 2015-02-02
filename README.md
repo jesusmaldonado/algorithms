@@ -10,7 +10,7 @@ Notes + Problems
 
 [Chapter 2 - Problems - Merge Sort Improvements, Bubble Sort Correctness, Horner's Rule and Invariance][problems]
 
-[]
+[Chapter 4 - Divide and Conquer + Maximum Subarray Problem][ch4notes]
 
 Sorts
 ==
@@ -37,7 +37,7 @@ Problems
 
 
 
-
+[ch4notes]: ./ch4/notes.txt
 [commonsubst]: ./practice_problems/common_substr.rb
 [bubble-sort]: ./ch2/bubble_sort.rb
 [problems]: ./ch2/problems.txt

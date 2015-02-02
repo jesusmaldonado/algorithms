@@ -1,0 +1,14 @@
+Given a stock-bearing problem a brute force solution is to consider every possible buy and sell date and simply select the highest.
+This solution has (n 2) binomial pairs of dates, which is n!/(2! * (n - 2)!), which is at least o(n^2)
+
+So, a better solution would be to:
+1. Find a sequence of days over which the net change from the first day to the last is maximum
+2. Then, the problem is to find a nonempty, contiguous subarray of A whose values have the largest sum
+3. We need to find the maximum subarray
+What's special about this is that we can utilize the value of previously computed subarray sums.
+
+We can apply divide and conquer to this
+1. Divide the subarray into two subarrays of equal size.
+Any contiguous subarray is either in the left, in the right, or somewhere in between those two arrays.
+For the middle array, it has form A[i..mid] and A[mid +1..j], and then this is combined
+ 
