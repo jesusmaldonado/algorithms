@@ -29,14 +29,14 @@ Problems
 ==
 [Common Substrings][commonsubst]
 
+[Maximum-Subarray][subarray]
 
 
 
 
 
 
-
-
+[subarray]: ./ch4/subarray.rb
 [ch4notes]: ./ch4/notes.txt
 [commonsubst]: ./practice_problems/common_substr.rb
 [bubble-sort]: ./ch2/bubble_sort.rb
