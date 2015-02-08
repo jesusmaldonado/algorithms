@@ -24,6 +24,8 @@ Sorts
 
 [Bubble Sort][bubble-sort] O(lg n^2)
 
+[Heap Sort][heap-sort] O(lg n * n)
+
 
 Problems
 ==
@@ -35,7 +37,7 @@ Problems
 
 
 
-
+[heap-sort]: ./ch6/heap_sort.rb
 [subarray]: ./ch4/subarray.rb
 [ch4notes]: ./ch4/notes.txt
 [commonsubst]: ./practice_problems/common_substr.rb
