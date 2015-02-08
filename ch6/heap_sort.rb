@@ -6,6 +6,8 @@ require 'pry'
 ##where n is the number of nodes
 ##unless we initialize a heap w nil, then we can just do 2n, 2n + 1, and n/2 respectively for these operations
 ##implementation taken from rubyquiz.com/quiz40.html
+##HEAPSORT IS COOL BECAUSE WE HAVE O(n lgn) sort time and O(1) memory!
+
 class Heap
 
 
