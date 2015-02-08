@@ -51,6 +51,22 @@ class Heap
     @heap[1]
   end
 
+  def to_s
+    # (1..self.heapsize).each do |num|
+    # todo, write a heap representation of an array
+  end
+
+  def height
+    Math.log2(@heapsize)
+  end
+
+  def heapsort
+    arr = []
+    arr << self.extract_max until self.heapsize == 0
+    arr
+  end
+
+
   def left(num)
     return "this is the root of the tree" if num == 1
     @heap[2 * num]
