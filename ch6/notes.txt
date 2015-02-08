@@ -1,0 +1,35 @@
+Heapsort
+
+--
+
+Creates a node representation of an array called a heap structure. A heap representation begins by representing the first eelement of the array with the next two as childen, up to a maximum of two.
+The pattern is continued onto the next array.
+
+We have methods we can call on a node
+
+Parent(i)
+return i/2
+
+Left(i)
+return 2i
+
+Right(i)
+return 2i + 1
+
+These procedures can compute 2i in one instruction by shifting the binary representation of i by one position, 2i+ 1 by one shifting the binary representation of a number to the left and then adding 1 as the lowest bit
+
+And a parent element can be found by shifting a bit 1 to the right.
+
+There are two kinds of binary heaps
+
+max-heaps
+the value of a node is never greater than its parent
+--so the root is the greatest value of the heap
+
+min-heaps
+a parent of a node is always smaller than both of its children
+--so the root is the smallest value of the heap
+
+
+height of a heap is the height of its root
+the height of any node is the traversal to the shortest element
