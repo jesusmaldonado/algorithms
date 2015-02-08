@@ -19,8 +19,20 @@ class Heap
   def insert(*elements)
     elements.each do |element|
       @heap << element
-      sift_up
+      sift_down
     end
+  end
+
+  def extract_max
+    return "no elements in heap" if self.heapsize < 1
+    extract = @heap[1]
+    if self.heapsize > 1
+      @heap[1] = @heap.pop
+      sift_up
+    else
+      @heap.pop
+    end
+    extract
   end
 
   def inspect
@@ -55,7 +67,7 @@ class Heap
   end
 
   private
-  def sift_up
+  def sift_down
     i = @heap.size - 1
     until i == 1
       j = i /2
@@ -64,6 +76,18 @@ class Heap
       @heap[j], @heap[i] = @heap[i], @heap[j]
       i = j
     end
+  end
+
+  def sift_up
+    i = 1
+      loop do
+        c = 2 * i
+        break if c >= @heap.size
+        c += 1 if c + 1 < @heap.size && @heap[c + 1] > @heap[c]
+        break if @comp[@heap[c], @heap[i]] <= 0
+        @heap[c], @heap[i] = @heap[i], @heap[c]
+        i = c
+      end
   end
 
 
