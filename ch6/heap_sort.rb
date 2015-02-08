@@ -68,7 +68,6 @@ class Heap
     arr
   end
 
-
   def left(num)
     return "this is the root of the tree" if num == 1
     @heap[2 * num]
