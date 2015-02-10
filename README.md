@@ -31,12 +31,13 @@ Problems
 ==
 [Common Substrings][commonsubst]
 
-[Maximum-Subarray][subarray]
+[Maximum Subarray][subarray]
+
+[Max Pair Sum / Hash Table Discussion][maxpairsum]
 
 
 
-
-
+[maxpairsum]: ./practice_problems/max_pair.rb
 [heap-sort]: ./ch6/heap_sort.rb
 [subarray]: ./ch4/subarray.rb
 [ch4notes]: ./ch4/notes.txt
