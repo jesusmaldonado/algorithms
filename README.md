@@ -6,7 +6,9 @@ See my implementations and notes on the various algorithms in Ruby, with solutio
 Data Structure
 ==
 [Set][set] O(1) lookup
+
 [Hash Table][maxpairsum] O(1) lookup, constant time to iterate
+
 [Heap][heap-sort]
 
 
