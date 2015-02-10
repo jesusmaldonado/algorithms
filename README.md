@@ -3,6 +3,14 @@
 ## A series of exercises/notes/solutions in Ruby as I work my way through [Introduction to Algorithms][algorithms].
 See my implementations and notes on the various algorithms in Ruby, with solutions to the exercises.
 
+Data Structure
+==
+[Set][set] O(1) lookup
+[Hash Table][maxpairsum] O(1) lookup, constant time to iterate
+[Heap][heap-sort]
+
+
+
 Notes + Problems
 ==
 
@@ -24,8 +32,7 @@ Sorts
 
 [Bubble Sort][bubble-sort] O(lg n^2)
 
-[Heap Sort][heap-sort] O(lg n * n)
-
+[Heap Sort / Heap Data Structure][heap-sort] O(lg n * n)
 
 Problems
 ==
@@ -37,6 +44,7 @@ Problems
 
 
 
+[set]: ./data_structures/set.rb
 [maxpairsum]: ./practice_problems/max_pair.rb
 [heap-sort]: ./ch6/heap_sort.rb
 [subarray]: ./ch4/subarray.rb
