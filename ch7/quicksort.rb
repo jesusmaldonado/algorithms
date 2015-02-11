@@ -35,51 +35,12 @@ def partition(arr, p, r)
 	i + 1 ##so what we are reutnring is the index of the PIVOT
 end
 
-
-
-
-##rubyized version
-##if we randomize the input, then the average-worst-case turns O(n log n)
-# def quicksort_randomized(arr)
-# 	return if arr.nil? || arr.size <= 1
-# 	##no more splitting needs to be done if the array is size 1
-# 	last_index = arr.length - 1
-# 	r = rand(last_index)
-# 	pivot = arr[r]
-# 	i = 0
-# 	(0..last_index).each do |j|
-# 		if arr[j] <= pivot
-# 			i += 1
-# 			arr[j], arr[r] = arr[r], arr[i]
-# 		end
-# 	end
-#
-# 	arr[i + 1], arr[r] = arr[r], arr[i+1]
-# 	p arr[(0..i)]
-# 	p arr[(i+2..last_index)]
-# 	quicksort_randomized(arr[(0..i)])
-# 	quicksort_randomized(arr[(i+2..last_index)])
-# 	arr
-# end
-# quicksort_randomized([5,32,4,5])
-
-
-def myqsort(arr)
-	return if arr.nil?
+##ruby has a partition function
+def quicksort_r(arr)
 	return arr if arr.size <= 1
-	pivot = arr[-1]
-	i = -1
-	(0...arr.length).each do |j|
-		if arr[j] <= pivot
-			i += 1
-			arr[j], arr[-1] = arr[-1], arr[j]
-		end
-	end
-	arr[i + 1], pivot = pivot, arr[i + 1]
-	left, right = myqsort(arr[(0..i)]), myqsort(arr[(i+2...arr.length)])
-	p left
-	p right
-	left + right
+	pivot = arr.shift
+	left, right = arr.partition{|el| el <= pivot}
+	quicksort_r(left) + [pivot] + quicksort_r(right)
 end
 
-p myqsort([5,32,4,5])
+p quicksort_r([5,4,5,5,523,537])
