@@ -1,0 +1,7 @@
+Algorithms with comparison sorts can be viewed as decision trees where comparisons are held between elements.
+
+In the decision tree, the height of the decision tree represents the worst possible number of comparisons it takes to get to the solution.
+
+Every comparison sort has at worst an O(n log n) solution, so in order to optimize we need to sort an array differently.
+
+These are the non-comparison sorts

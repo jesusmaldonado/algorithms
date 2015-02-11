@@ -22,6 +22,8 @@ Notes + Problems
 
 [Chapter 4 - Divide and Conquer + Maximum Subarray Problem][ch4notes]
 
+[Chapter 8 - Linear Sorting Algorithms][ch8notes]
+
 Sorts
 ==
 [Insertion Sort / Linear Search / Selection O(n^2) Sort][insertion-sort-linear-search]
@@ -38,6 +40,10 @@ Sorts
 
 [Heap Sort / Heap Data Structure][heap-sort] O(lg n * n)
 
+Non-Comparison-Sorts
+
+[Counting Sort][counting-sort] O(n + k)
+
 Problems
 ==
 [Common Substrings][commonsubst]
@@ -46,7 +52,8 @@ Problems
 
 [Max Pair Sum / Hash Table Discussion][maxpairsum]
 
-
+[countingsort]: ./ch8/counting_sort.rb
+[ch8notes]: ./ch8/linear_sort.txt
 [quick-sort]: ./ch7/quick-sort.rb
 [set]: ./data_structures/set.rb
 [maxpairsum]: ./practice_problems/max_pair.rb
