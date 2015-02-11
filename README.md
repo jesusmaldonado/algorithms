@@ -42,7 +42,7 @@ Sorts
 
 Non-Comparison-Sorts
 
-[Counting Sort][counting-sort] O(n + k)
+[Counting Sort/Radix Sort][counting-sort] O(n + k) / O(nk)
 
 Problems
 ==
