@@ -34,6 +34,8 @@ Sorts
 
 [Bubble Sort][bubble-sort] O(lg n^2)
 
+[Quicksort][quick-sort] O(n^2)
+
 [Heap Sort / Heap Data Structure][heap-sort] O(lg n * n)
 
 Problems
@@ -45,7 +47,7 @@ Problems
 [Max Pair Sum / Hash Table Discussion][maxpairsum]
 
 
-
+[quick-sort]: ./ch7/quick-sort.rb
 [set]: ./data_structures/set.rb
 [maxpairsum]: ./practice_problems/max_pair.rb
 [heap-sort]: ./ch6/heap_sort.rb
