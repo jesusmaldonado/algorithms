@@ -15,5 +15,3 @@ def counting_sort(arr, k)
 	end
 	p sorted_array
 end
-
-counting_sort([1,9,5,3,3,4,4,1], 10)
