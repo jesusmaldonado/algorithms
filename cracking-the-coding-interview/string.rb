@@ -19,4 +19,17 @@ def products(int_array)
 	arr
 end
 
-p products([1, 7, 0, 4])
+
+def prods(arr)
+	output = []
+	left = 1
+	right = arr.inject(&:*)
+	arr.each do |val|
+		right /= val
+		output << left * right
+		left *= val
+	end
+	output
+end
+
+p prods([1, 7, 0, 4])
