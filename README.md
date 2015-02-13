@@ -11,7 +11,11 @@ Data Structure
 
 [Heap][heap-sort]
 
+[Static Array][static-array]
 
+[Dynamic Array][dynamic-array] pop is O(1); shift, unshift, push can be O(n) at worst
+
+[Ring Buffer][ring-buffer]
 
 Notes + Problems
 ==
@@ -41,6 +45,7 @@ Sorts
 [Heap Sort / Heap Data Structure][heap-sort] O(lg n * n)
 
 Non-Comparison-Sorts
+==
 
 [Counting Sort/Radix Sort][counting-sort] O(n + k) / O(nk)
 
@@ -50,9 +55,11 @@ Problems
 
 [Maximum Subarray][subarray]
 
+[ring-buffer]: ./data_structures/ring_buffer.rb
+[dynamic-array]: ./data_structures/dynamic_array.rb
 [Max Pair Sum / Hash Table Discussion][maxpairsum]
-
-[countingsort]: ./ch8/counting_sort.rb
+[static-array]: ./data_structures/static_array.rb
+[counting-sort]: ./ch8/counting_sort.rb
 [ch8notes]: ./ch8/linear_sort.txt
 [quick-sort]: ./ch7/quick-sort.rb
 [set]: ./data_structures/set.rb
