@@ -55,6 +55,9 @@ Problems
 
 [Maximum Subarray][subarray]
 
+Cracking the Code Interview
+==
+
 [ring-buffer]: ./data_structures/ring_buffer.rb
 [dynamic-array]: ./data_structures/dynamic_array.rb
 [Max Pair Sum / Hash Table Discussion][maxpairsum]
