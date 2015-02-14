@@ -55,7 +55,7 @@ Non-Comparison-Sorts
 Problems
 ==
 
-[Common Substrings][commonsubst]
+[Common Substrings][common-substrings]
 
 [Maximum Subarray][subarray]
 
@@ -71,6 +71,16 @@ Problems
 
 [Binary Search][binary]
 
+[Products][products]
+
+[Max Pair Sum][maxpairsum]
+
+[Three Sum][threesum]
+
+[Tuples][tuples]
+
+
+
 
 [rectangles]: ./problems/rectangle-intersection.rb
 [binary]: ./problems/binary.rb
@@ -81,7 +91,6 @@ Problems
 [recursion]: ./problems/recursion.rb
 [strings]: ./problems/string.rb
 [maxpairsum]: ./problems/max_pair.rb
-[commonsubst]: ./problems/common_substr.rb
 [products]: ./problems/products.rb
 [threesum]: ./problems/threesum.rb
 [tuples]: ./problems/tuples.rb
