@@ -17,6 +17,9 @@ Data Structure
 
 [Ring Buffer][ring-buffer]
 
+[Max Pair Sum / Hash Table Discussion][maxpairsum]
+
+
 Notes + Problems
 ==
 
@@ -56,40 +59,43 @@ Problems
 
 [Maximum Subarray][subarray]
 
-Cracking the Code Interview
-==
-
 [Strings, Tuples]:[strings]
 
 [Recursion]:[recursion]
 
+[Rectangle Intersections]: [rectangles]
 
 
-[recursion]: ./cracking-the-coding-interview/recursion.rb
-[strings]: ./cracking-the-coding-interview/string.rb
+
+[recursion]: ./problems/recursion.rb
+[strings]: ./problems/string.rb
+[maxpairsum]: ./problems/max_pair.rb
+[commonsubst]: ./problems/common_substr.rb
+
+
 [ring-buffer]: ./data_structures/ring_buffer.rb
 [dynamic-array]: ./data_structures/dynamic_array.rb
-[Max Pair Sum / Hash Table Discussion][maxpairsum]
 [static-array]: ./data_structures/static_array.rb
+[set]: ./data_structures/set.rb
+
 [counting-sort]: ./ch8/counting_sort.rb
 [ch8notes]: ./ch8/linear_sort.txt
+
 [quick-sort]: ./ch7/quick-sort.rb
-[set]: ./data_structures/set.rb
-[maxpairsum]: ./practice_problems/max_pair.rb
+
 [heap-sort]: ./ch6/heap_sort.rb
+
 [subarray]: ./ch4/subarray.rb
 [ch4notes]: ./ch4/notes.txt
-[commonsubst]: ./practice_problems/common_substr.rb
+
 [bubble-sort]: ./ch2/bubble_sort.rb
 [problems]: ./ch2/problems.txt
 [binary-search]: ./ch2/binary_search.rb
 [insertion-sort-recursion]: ./ch2/recurs_ins_sort.rb
 [mergesort]: ./ch2/merge_sort.rb
 [divide and conquer]: ./ch2/divideandconquer.txt
+[insertion-sort-linear-search]: ./ch2/ch2Problems.rb
 
 [algorithms]: http://www.amazon.com/Introduction-Algorithms-3rd-Thomas-Cormen/dp/0262033844/ref=sr_1_2?ie=UTF8&qid=1422754780&sr=8-2&keywords=algorithms
 
 [chapter2]: ./ch2/chapter2cormen.txt
-
-
-[insertion-sort-linear-search]: ./ch2/ch2Problems.rb
