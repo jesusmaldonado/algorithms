@@ -59,17 +59,18 @@ Problems
 
 [Maximum Subarray][subarray]
 
-[Strings, Tuples]:[strings]
+[Strings Tuples][strings]
 
-[Recursion]:[recursion]
+[Recursion][recursion]
 
-[Recursive Sums]: [rec-sum]
+[Recursive Sums][rec-sum]
 
-[Rectangle Intersections]: [rectangles]
+[Rectangle Intersections][rectangles]
 
-[Next Largest BST]: [next-largest-bst]
+[Next Largest BST][next-largest-bst]
 
-[Binary Search]: [binary]
+[Binary Search][binary]
+
 
 [rectangles]: ./problems/rectangle-intersection.rb
 [binary]: ./problems/binary.rb
