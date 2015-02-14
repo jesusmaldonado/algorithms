@@ -51,6 +51,7 @@ Non-Comparison-Sorts
 
 Problems
 ==
+
 [Common Substrings][commonsubst]
 
 [Maximum Subarray][subarray]
@@ -58,6 +59,14 @@ Problems
 Cracking the Code Interview
 ==
 
+[Strings, Tuples]:[strings]
+
+[Recursion]:[recursion]
+
+
+
+[recursion]: ./cracking-the-coding-interview/recursion.rb
+[strings]: ./cracking-the-coding-interview/string.rb
 [ring-buffer]: ./data_structures/ring_buffer.rb
 [dynamic-array]: ./data_structures/dynamic_array.rb
 [Max Pair Sum / Hash Table Discussion][maxpairsum]
