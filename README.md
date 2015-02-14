@@ -63,10 +63,20 @@ Problems
 
 [Recursion]:[recursion]
 
+[Recursive Sums]: [rec-sum]
+
 [Rectangle Intersections]: [rectangles]
 
+[Next Largest BST]: [next-largest-bst]
 
+[Binary Search]: [binary]
 
+[rectangles]: ./problems/rectangle-intersection.rb
+[binary]: ./problems/binary.rb
+[common-substrings]: ./problems/common_substr.rb
+[next-largest-bst]: ./problems/next_largest_bst.rb
+[rec-sum]: ./problems/sum_rec.rb
+[strings]: ./problems/string.rb
 [recursion]: ./problems/recursion.rb
 [strings]: ./problems/string.rb
 [maxpairsum]: ./problems/max_pair.rb
