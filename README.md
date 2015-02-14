@@ -77,12 +77,14 @@ Problems
 [common-substrings]: ./problems/common_substr.rb
 [next-largest-bst]: ./problems/next_largest_bst.rb
 [rec-sum]: ./problems/sum_rec.rb
-[strings]: ./problems/string.rb
+[max-profit]: ./problems/max_profit.rb
 [recursion]: ./problems/recursion.rb
 [strings]: ./problems/string.rb
 [maxpairsum]: ./problems/max_pair.rb
 [commonsubst]: ./problems/common_substr.rb
-
+[products]: ./problems/products.rb
+[threesum]: ./problems/threesum.rb
+[tuples]: ./problems/tuples.rb
 
 [ring-buffer]: ./data_structures/ring_buffer.rb
 [dynamic-array]: ./data_structures/dynamic_array.rb
