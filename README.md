@@ -19,6 +19,8 @@ Data Structure
 
 [Max Pair Sum / Hash Table Discussion][maxpairsum]
 
+[Linked Lists][linkedlist]
+
 
 Notes + Problems
 ==
@@ -79,9 +81,21 @@ Problems
 
 [Tuples][tuples]
 
+[Delete Node from Singly-Linked-List][delete-node]
+
+[Temperature][temperature-tracker]
+
+[Closed Properly][closed-properly]
+
+[Permutation of a String is Palindrome][permutation-string]
 
 
 
+
+[permutation-string]: ./problems/string_permutation.rb
+[closed-properly]: ./problems/closed.rb
+[temperature-tracker]: ./problems/temp_tracker.rb
+[delete-node]: ./problems/delete_node.rb
 [rectangles]: ./problems/rectangle-intersection.rb
 [binary]: ./problems/binary.rb
 [common-substrings]: ./problems/common_substr.rb
@@ -95,6 +109,7 @@ Problems
 [threesum]: ./problems/threesum.rb
 [tuples]: ./problems/tuples.rb
 
+[linked-list]: ./data_structures/linked_list.rb
 [ring-buffer]: ./data_structures/ring_buffer.rb
 [dynamic-array]: ./data_structures/dynamic_array.rb
 [static-array]: ./data_structures/static_array.rb
