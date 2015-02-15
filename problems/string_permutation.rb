@@ -31,4 +31,4 @@ end
 
 ##permutations essentially imply an O(n) runtime because the arrangement produces the permutation
 ##why store booleans? to avoid overflow. this can go through an arbitrarily large string
-##the memory cost is extremeley efficient, ther eis a constant memory for all strings because there is only a set of certain strings
+##the memory cost is extremeley efficient, ther eis a constant memory for all strings because there is only a set of certain letters

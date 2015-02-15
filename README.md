@@ -97,7 +97,11 @@ Problems
 
 [In Place Shuffle of Array][in-place]
 
+[Recursive Permutations of a Stirng][recursive-permutations]
 
+
+
+[recursive-permutations]: ./problems/recursive_permutations.rb
 [in-place]: ./problems/in_place_shuffle.rb
 [make-cloud]: ./problems/make_cloud.rb
 [find-double]: ./problems/find_double.rb
