@@ -95,6 +95,10 @@ Problems
 
 [Make Cloud Map of Words][make-cloud]
 
+[In Place Shuffle of Array][in-place]
+
+
+[in-place]: ./problems/in_place_shuffle.rb
 [make-cloud]: ./problems/make_cloud.rb
 [find-double]: ./problems/find_double.rb
 [string-mutability]: ./problems/reverse.rb
