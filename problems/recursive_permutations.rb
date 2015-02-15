@@ -4,13 +4,13 @@
 # cat -> at -> a  [string] → ta at -> cta tac atc cat tca act
 def rec_permutations(string)
 	return [string] if string.length <= 1
-permutations = rec_permutations(string.slice(1, string.length))
-p string[0]
+
+permutations = rec_permutations(string[1..(string.length - 1)])
+
 container = []
-possible_index = permutations[0].length
 permutations.each do |perm|
-	(0..possible_index).each do |j|
-		permutation = perm[0...j] + string[0] + perm[j..-1]
+	(0...perm.length).each do |j|
+		permutation=perm[0...j] + string[0] + perm[j..-1]
 		container << permutation
 	end
 end
