@@ -93,6 +93,9 @@ Problems
 
 [Find Double in Triangular Series][find-double]
 
+[Make Cloud Map of Words][make-cloud]
+
+[make-cloud]: ./problems/make_cloud.rb
 [find-double]: ./problems/find_double.rb
 [string-mutability]: ./problems/reverse.rb
 [permutation-string]: ./problems/string_permutation.rb
