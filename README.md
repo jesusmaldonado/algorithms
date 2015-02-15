@@ -89,9 +89,11 @@ Problems
 
 [Permutation of a String is Palindrome][permutation-string]
 
+[Mutability of A String][string-mutability]
 
 
 
+[string-mutability]: ./problems/reverse.rb
 [permutation-string]: ./problems/string_permutation.rb
 [closed-properly]: ./problems/closed.rb
 [temperature-tracker]: ./problems/temp_tracker.rb
@@ -108,6 +110,8 @@ Problems
 [products]: ./problems/products.rb
 [threesum]: ./problems/threesum.rb
 [tuples]: ./problems/tuples.rb
+[reverse-strings]: ./problems/reverse_strings.rb
+[reverse-linked-list]: ./problems/link_reverse.rb
 
 [linked-list]: ./data_structures/linked_list.rb
 [ring-buffer]: ./data_structures/ring_buffer.rb
