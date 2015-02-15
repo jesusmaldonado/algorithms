@@ -91,8 +91,9 @@ Problems
 
 [Mutability of A String][string-mutability]
 
+[Find Double in Triangular Series][find-double]
 
-
+[find-double]: ./problems/find_double.rb
 [string-mutability]: ./problems/reverse.rb
 [permutation-string]: ./problems/string_permutation.rb
 [closed-properly]: ./problems/closed.rb
