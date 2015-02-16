@@ -99,8 +99,12 @@ Problems
 
 [Recursive Permutations of a Stirng][recursive-permutations]
 
+[Make Change][make-change]
 
+[Linked List Has Cycle][has-cycle]
 
+[has-cycle]: ./problems/has_cycle.rb
+[make-change]: ./problems/make_change.rb
 [recursive-permutations]: ./problems/recursive_permutations.rb
 [in-place]: ./problems/in_place_shuffle.rb
 [make-cloud]: ./problems/make_cloud.rb

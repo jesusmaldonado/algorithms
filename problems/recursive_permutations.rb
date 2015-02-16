@@ -9,7 +9,7 @@ permutations = rec_permutations(string[1..(string.length - 1)])
 
 container = []
 permutations.each do |perm|
-	(0...perm.length).each do |j|
+	(0..perm.length).each do |j|
 		permutation=perm[0...j] + string[0] + perm[j..-1]
 		container << permutation
 	end
