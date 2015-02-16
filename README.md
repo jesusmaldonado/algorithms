@@ -103,6 +103,9 @@ Problems
 
 [Linked List Has Cycle][has-cycle]
 
+[Find Potential File Duplicates][reading-files]
+
+[reading-files]: ./problems/file_read.rb
 [has-cycle]: ./problems/has_cycle.rb
 [make-change]: ./problems/make_change.rb
 [recursive-permutations]: ./problems/recursive_permutations.rb
