@@ -15,14 +15,14 @@ end
 
 require ‘set’
 def has_cycle_directed_graph?(node)
-seen = Set.new
-children = node.next
+	seen = Set.new
+	children = node.next
 
-children.each do |child|
-return false if children.empty?
-return true if seen.include?(child)
-seen << child
-children + child.next
-end
-		nil
+	children.each do |child|
+		return false if children.empty?
+		return true if seen.include?(child)
+		seen << child
+		children += child.next
+	end
+	nil
 end
