@@ -105,6 +105,22 @@ Problems
 
 [Find Potential File Duplicates][reading-files]
 
+[Merge Procedure][merge-procedure]
+
+[Queue from Two Stack][queue-two-stacks]
+
+[kth-largest-bst][kth-largest]
+
+[Check if Binary Tree][bst]
+
+[N-Choose-K][n-choose-k]
+
+
+[n-choose-k]: ./problems/n_choose_k.rb
+[bst]: ./problems/bst.rb
+[kth-largest]: ./problems/kth_largest.rb
+[queue-two-stacks]: ./problems/queue_two_stacks.rb
+[merge-procedure]: ./problems/merge.rb
 [reading-files]: ./problems/file_read.rb
 [has-cycle]: ./problems/has_cycle.rb
 [make-change]: ./problems/make_change.rb
