@@ -115,7 +115,9 @@ Problems
 
 [N-Choose-K][n-choose-k]
 
+[Multiple Merge][multiple-merge]
 
+[multiple-merge]: ./problems/multiple_merge.rb
 [n-choose-k]: ./problems/n_choose_k.rb
 [bst]: ./problems/bst.rb
 [kth-largest]: ./problems/kth_largest.rb

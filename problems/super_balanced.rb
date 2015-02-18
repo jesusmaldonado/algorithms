@@ -2,7 +2,7 @@
 #dfs finds the target most quickly
 ##this is a dfs
 
-def super_balanced(root)
+def balanced(root)
 	steps_right = 0
 	steps_left = 0
 	potential_min = root
