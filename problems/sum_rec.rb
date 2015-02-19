@@ -22,3 +22,9 @@ end
 
 
 #this is a little beter because the array is not destructively recursed through
+
+
+def sum_recv2(nums)
+  return nums[0] if nums.size == 1
+  [nums[0] + sum_rec(nums.drop(1))]
+end
