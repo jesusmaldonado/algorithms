@@ -1,13 +1,17 @@
-#”abc” => “def”
 def caesar_cipher(str, amount)
-	shifted_alphabet = ("a".."z").to_a.rotate(amount)
-	alphabet = ("a".."z").to_a
-	letters = Hash[alphabet.zip(shifted_alphabet)]
-	p shifted_alphabet
+	letters = ("a".."z").to_a
+	shift = ("a".."z").to_a.shift(amount)
+	caesar = ("a".."z").to_a.slice(amount, 25) + shift
+	p caesar
+	hash = Hash[letters.zip(caesar)]
 	(0...str.length).each do |j|
 		char = str[j]
-		str[j] = letters[char]
+		if hash[char]
+			str[j] = hash[char]
+		end
 	end
 	str
 end
-p caesar_cipher("abc", 3)
+
+##O(n)/O(1)
+p caesar_cipher("this is a cute little string", 3)
