@@ -21,6 +21,8 @@ Data Structure
 
 [Linked Lists][linkedlist]
 
+[Graphs][graphs]
+
 
 Notes + Problems
 ==
@@ -150,6 +152,7 @@ Problems
 [reverse-strings]: ./problems/reverse_strings.rb
 [reverse-linked-list]: ./problems/link_reverse.rb
 
+[graphs]: ./data_structures/graph.rb
 [linked-list]: ./data_structures/linked_list.rb
 [ring-buffer]: ./data_structures/ring_buffer.rb
 [dynamic-array]: ./data_structures/dynamic_array.rb
