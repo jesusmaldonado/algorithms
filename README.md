@@ -23,6 +23,9 @@ Data Structure
 
 [Graphs][graphs]
 
+[Topological Sort][topological-sort]
+
+[Graph-BFS][graph-bfs]
 
 Notes + Problems
 ==
@@ -152,6 +155,8 @@ Problems
 [reverse-strings]: ./problems/reverse_strings.rb
 [reverse-linked-list]: ./problems/link_reverse.rb
 
+[topological-sort]: ./data_structures/topological_sort.rb
+[graph-bfs]: ./data_structures/graph_bfs.rb
 [graphs]: ./data_structures/graph.rb
 [linked-list]: ./data_structures/linked_list.rb
 [ring-buffer]: ./data_structures/ring_buffer.rb
