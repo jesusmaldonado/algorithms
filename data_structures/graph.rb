@@ -4,6 +4,10 @@ class Vertex
 	def initialize(value)
 		@value, @in_edges, @out_edges = value, [], []
 	end
+
+	def inspect
+		self.value
+	end
 end
 
 class Edge
@@ -25,6 +29,9 @@ class Edge
 		self.from_vertex = nil
 	end
 
+	def inspect
+		[self.from_vertex.value, self.to_vertex.value]
+	end
 	protected
 	attr_writer :from_vertex, :to_vertex, :cost
 end

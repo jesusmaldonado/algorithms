@@ -21,3 +21,6 @@ def find_unique_fast(array)
 end
 ##conditions: numrepeat % 2 == 0, only finds 1 uniq
 p find_unique_fast([23, 24, 23, 25, 25, 25, 25, 5, 5])
+
+
+def find_duplicates
