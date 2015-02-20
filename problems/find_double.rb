@@ -20,7 +20,7 @@ def find_double(arr)
 end
 
 def find_repeat(arr)
-	floor = 1
+	floor = 0
 	ceiling = arr.length - 1
 	while floor < ceiling
 		midpoint = (ceiling - floor) / 2
@@ -38,7 +38,5 @@ def find_repeat(arr)
 			floor, ceiling = upper_low, upper_high
 		end
 	end
-arr[floor]
+	arr[floor]
 end
-
-p find_repeat([1,2,3,4,4,5,5,7,8,8,9])
