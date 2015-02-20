@@ -19,24 +19,29 @@ def find_double(arr)
 	number = sum - triangular_sum
 end
 
-def find_repeat(arr)
-	floor = 0
-	ceiling = arr.length - 1
+def find_repeat(array)
+	floor = 1
+	ceiling = array.length - 1
 	while floor < ceiling
-		midpoint = (ceiling - floor) / 2
-		lower_low, lower_high = floor, midpoint
-		upper_low, upper_high = midpoint + 1, ceiling
+			midpoint = floor + ((ceiling - floor))/2
+			lower_range_floor, lower_range_ceiling = floor, midpoint
+			upper_range_floor, upper_range_ceiling = midpoint + 1, ceiling
 
-		number_in_range = 0
-		arr.each_with_index do |val, index|
-			number_in_range += 1 if index <= lower_low && index >= lower_high
-		end
-		distinct = lower_high - lower_low + 1
-		if number_in_range > distinct
-			floor, ceiling = lower_low, lower_high
-		else
-			floor, ceiling = upper_low, upper_high
-		end
+			distinct_items = 0
+			array.each_with_index do |val, idx|
+				if idx <= lower_range_ceiling && idx >= lower_range_floor
+					distinct_items += 1
+				end
+			end
+
+			possible_integers = lower_range_ceiling - lower_range_floor + 1
+			if distinct_items > possible_integers
+				floor, ceiling = lower_range_floor, lower_range_ceiling
+			else
+				floor, ceiling = upper_range_floor, upper_range_ceiling
+			end
 	end
-	arr[floor]
+	array[floor]
 end
+
+p find_repeat([1,2,3,4,4,5,6])
