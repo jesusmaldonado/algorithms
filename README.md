@@ -19,7 +19,7 @@ Data Structure
 
 [Max Pair Sum / Hash Table Discussion][maxpairsum]
 
-[Linked Lists][linkedlist]
+[Linked Lists][linked-list]
 
 [Graphs][graphs]
 
@@ -121,6 +121,8 @@ Problems
 [N-Choose-K][n-choose-k]
 
 [Multiple Merge][multiple-merge]
+
+[Two-Stacks][two-stacks]
 
 [multiple-merge]: ./problems/multiple_merge.rb
 [n-choose-k]: ./problems/n_choose_k.rb
