@@ -124,6 +124,7 @@ Problems
 
 [Two-Stacks][two-stacks]
 
+[two-stacks]: ./problems/two-stacks.rb
 [multiple-merge]: ./problems/multiple_merge.rb
 [n-choose-k]: ./problems/n_choose_k.rb
 [bst]: ./problems/bst.rb
