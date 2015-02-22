@@ -1,6 +1,5 @@
 def print_tree(tree)
-	root = Tree.root
-	queue = []
+	queue = [tree.root]
 	current_level, next_level = 1 , 0
 	until queue.empty?
 		node = queue.shift

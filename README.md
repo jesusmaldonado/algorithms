@@ -27,6 +27,8 @@ Data Structure
 
 [Graph-BFS][graph-bfs]
 
+[AVL][avl]
+
 Notes + Problems
 ==
 
@@ -124,9 +126,7 @@ Problems
 
 [Two-Stacks][two-stacks]
 
-[Print Tree][print-tree]
 
-[print-tree]: ./problems/print_tree.rb
 [two-stacks]: ./problems/two-stacks.rb
 [multiple-merge]: ./problems/multiple_merge.rb
 [n-choose-k]: ./problems/n_choose_k.rb
@@ -161,6 +161,7 @@ Problems
 [reverse-strings]: ./problems/reverse_strings.rb
 [reverse-linked-list]: ./problems/link_reverse.rb
 
+[avl]: ./data_structures/avl.rb
 [topological-sort]: ./data_structures/topological_sort.rb
 [graph-bfs]: ./data_structures/graph_bfs.rb
 [graphs]: ./data_structures/graph.rb
