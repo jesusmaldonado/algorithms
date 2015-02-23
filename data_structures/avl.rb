@@ -48,6 +48,7 @@ class AVLTree
     !!vertex
   end
 
+
   def insert(value)
     if empty?
       @root = AVLTreeNode.new(value)
@@ -122,7 +123,7 @@ class AVLTree
 		count
 	end
 
-	def to_s
+	def print_flipped
 		@curved = []
 		recurse
 	end
@@ -139,16 +140,75 @@ class AVLTree
 		end
 		result += "#{node.value}\n"
 		if node.right
-			@curved[level] = node.right.left ? false : true
+			@curved[level] = false
 			result += recurse(node.right, level + 1)
-			if node.left
-				@curved[level] = true
-				result += recurse(node.left, level +1)
-			end
 		end
+		if node.left
+			@curved[level] = true
+			result += recurse(node.left, level + 1)
+		end
+
+
 		result
 	end
 
+  def inspect
+		self.to_s
+	end
+
+  def to_s
+		if empty?
+			"[empty bst]"
+		else
+			res , = to_s_rec(root)
+			res.shift
+			res.join "\n"
+		end
+		puts res
+	end
+
+	def to_s_rec(node)
+		str = "#{node.value}"
+		str = "  " if str.empty?
+
+		if node.left
+			l, wl = to_s_rec(node.left)
+		else
+			return [["|".center(str.size) , str], str.size]
+		end
+		if node.right
+			r, wr = to_s_rec(node.right)
+		else
+			r, wr = [], -1
+		end
+
+		sumw = wl + wr + 1
+		w = [sumw, str.size].max
+		indent = (w - sumw) / 2
+		res = merge_rows(l, r, indent, indent + wl + 1)
+
+		vert = "|".center(w)
+
+		con = res[0].gsub("|", "+")
+		con[vert.index("|")] = ?+
+		con.sub!(/\+(.+)\+/) {|s| s.gsub(" ", "-")}
+		[[vert, str.center(w), vert, con] + res, w]
+	end
+
+	def merge_rows(rows1, rows2, p1, p2)
+		i = 0
+		res = []
+		while i < rows1.size || i < rows2.size
+			res << " " * p1
+			res.last << rows1[i] if i < rows1.size
+			if i < rows2.size
+				res.last << " " * [0, p2 - res.last.size].max
+				res.last << rows2[i]
+			end
+			i += 1
+		end
+		res
+	end
 
   protected
   def find(value)
@@ -246,7 +306,7 @@ class AVLTree
 end
 
 tree = AVLTree.new
-nums = (1...100).to_a.sample(50).shuffle!
+nums = (1...1000).to_a.sample(50).shuffle!
 nums.each { |num| tree.insert(num) }
 # tree.traverse { |num| p num }
 nums.each do |num|

@@ -1,13 +1,5 @@
 require 'pry-byebug'
 
-class Object
-	include ObjectSpace
-	def sexy_memory
-		binding.pry
-		memsize_of(self)
-	end
-end
-
 class BSTNode
 	attr_accessor :left, :right, :parent
 	attr_reader :value
@@ -181,3 +173,11 @@ class BST
 	end
 
 end
+
+
+a = BST.new
+
+b = (0..100).to_a.sample(80).shuffle!
+b.each{|val| a.insert(val)}
+
+a.to_s

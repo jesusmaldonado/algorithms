@@ -5,3 +5,15 @@ class RBNode < BSTNode
 		self.color = "RED"
 		super
 	end
+
+end
+
+class RBT < BST
+
+	def initialize
+		self.root = nil
+	end
+
+	
+
+end
