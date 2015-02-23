@@ -128,6 +128,9 @@ Problems
 
 [K-consensus][k-consensus]
 
+[Dutch Flag][dutch-flag]
+
+[dutch-flag]: ./problems/dutch_flag.rb
 [k-consensus]: ./problems/k_consensus.rb
 [two-stacks]: ./problems/two-stacks.rb
 [multiple-merge]: ./problems/multiple_merge.rb
