@@ -126,7 +126,9 @@ Problems
 
 [Two-Stacks][two-stacks]
 
+[K-consensus][k-consensus]
 
+[k-consensus]: ./problems/k_consensus.rb
 [two-stacks]: ./problems/two-stacks.rb
 [multiple-merge]: ./problems/multiple_merge.rb
 [n-choose-k]: ./problems/n_choose_k.rb
