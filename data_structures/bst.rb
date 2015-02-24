@@ -134,6 +134,23 @@ class BST
 		res
 	end
 
+	def kth_smallest(k)
+		node = self.root
+		stack = [node]
+		until stack.empty?
+			if node
+				stack << node.left
+				node = node.left
+			else
+				node = stack.pop
+				k -= 1
+				return node if k == 0
+				node = node.right
+			end
+		end
+		raise "element not in tree"
+	end
+
 	def in_order_traversal(node = @root)
 		return if node.nil?
 		in_order_traversal(node.left)
