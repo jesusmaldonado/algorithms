@@ -23,4 +23,4 @@ def one_cycle?(arr)
 	cycle
 end
 
-p one_cycle?([1, -3, 1])
+p one_cycle?([1, -2, 1])
