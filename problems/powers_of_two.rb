@@ -1,6 +1,6 @@
 def powers_of_two
 	while true
-		n = rand(1..10)
+		n = rand(10..16)
 		puts "Hey what's two to the #{n}"
 		output = gets.chomp.to_i
 		if 2 ** n == output

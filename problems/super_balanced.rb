@@ -12,7 +12,8 @@ def balanced(root)
 		if potential_min.left
 			potential_min = potential_min.left
 			steps_left += 1
-		elsif potential_max.right
+		end
+		if potential_max.right
 			potential_max = potential_max.right
 			steps_right += 1
 		end
