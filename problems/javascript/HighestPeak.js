@@ -21,7 +21,7 @@ Given an array that is definitely a mountain, return any i such that A[0] < A[1]
  * @return {number}
  */
 
- //O(n), works for multi-peaks
+ //O(n), works for multi-peaks [0,1,2,3,4,2,6000,0]
 
 var peakIndexInMountainArray = function(arr) {
     let maxI = null;
